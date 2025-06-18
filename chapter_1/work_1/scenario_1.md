@@ -1,22 +1,45 @@
-## Scenario 1
-You have been hired as a **Junior Data Engineer** at **LeadData**.
+# Chapter 1 – Independent Practice
 
-**LeadData** is a start-up that launched eight months ago, offering a new payment method to its customers. Initially, the company had around 250 clients, and every month since, it has gained approximately 50,000 new clients. This year, the company projects an increase to an average of 75,000 clients per month.
+## Scenario
 
-The company operates in two-week sprints. They use *Git* for version control and *GitHub* as a cloud-based platform for storing, sharing, and collaborating on code across all departments. Their services are deployed in the cloud, with *Amazon Web Services (AWS)* as their chosen cloud provider.
+As a new Junior Data Engineer at LeadData, I completed the required setup to prepare my environment and tools for future contributions.
 
-## Instructions 1
-Use the directory `chapter_1/work_1/` as your project directory for work related to **Chapter 1** for **LeadData** company.
+---
 
-## Assignment 1
-a. Create Account:
-* i. AWS.
-* ii. GitHub.
+## a. Accounts Created
 
-b. Install:
-* i. Python.
-* ii. VS Code.
-* iii. Docker Desktop.
-* iV. pgAdmin4.
-* v. AWS CLI.
-* vi. Terraform.
+- **AWS** – Done  
+- **GitHub** – Done  
+
+---
+
+## b. Tools Installed
+
+- **Python** – Done  
+- **VS Code** – Done  
+- **Docker Desktop** – Done  
+- **pgAdmin4** – Done  
+- **AWS CLI** – Done  
+- **Terraform** – Done  
+
+---
+
+## c. Local Setup
+
+- Environment configured and ready to use.
+- Repository forked and updated in branch `chapter_1`.
+- Tools tested and working properly.
+
+---
+
+## d. Ready for:
+
+- Collaborating with GitHub.
+- Writing scripts in Python.
+- Using Terraform and AWS for infrastructure.
+- Managing PostgreSQL with pgAdmin4 and Docker.
+
+---
+
+**Status: ✅ Ready to contribute.**
+
