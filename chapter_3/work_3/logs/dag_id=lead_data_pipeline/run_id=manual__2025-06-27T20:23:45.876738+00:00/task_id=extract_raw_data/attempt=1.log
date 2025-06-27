@@ -1,0 +1,23 @@
+[2025-06-27T20:23:50.956+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-27T20:23:51.170+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lead_data_pipeline.extract_raw_data manual__2025-06-27T20:23:45.876738+00:00 [queued]>
+[2025-06-27T20:23:51.208+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lead_data_pipeline.extract_raw_data manual__2025-06-27T20:23:45.876738+00:00 [queued]>
+[2025-06-27T20:23:51.210+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-06-27T20:23:51.311+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_raw_data> on 2025-06-27 20:23:45.876738+00:00
+[2025-06-27T20:23:51.357+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'lead_data_pipeline', 'extract_raw_data', 'manual__2025-06-27T20:23:45.876738+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/lead_data_pipeline.py', '--cfg-path', '/tmp/tmpxd7na1d1']
+[2025-06-27T20:23:51.376+0000] {standard_task_runner.py:105} INFO - Job 47: Subtask extract_raw_data
+[2025-06-27T20:23:51.349+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=478) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-06-27T20:23:51.388+0000] {standard_task_runner.py:72} INFO - Started process 481 to run task
+[2025-06-27T20:23:51.696+0000] {task_command.py:467} INFO - Running <TaskInstance: lead_data_pipeline.extract_raw_data manual__2025-06-27T20:23:45.876738+00:00 [running]> on host 07f0cc5d0ca1
+[2025-06-27T20:23:52.077+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='lead_data_pipeline' AIRFLOW_CTX_TASK_ID='extract_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2025-06-27T20:23:45.876738+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-27T20:23:45.876738+00:00'
+[2025-06-27T20:23:52.086+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-27T20:23:52.184+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-27T20:23:52.217+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-27T20:23:52.220+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=lead_data_pipeline, task_id=extract_raw_data, run_id=manual__2025-06-27T20:23:45.876738+00:00, execution_date=20250627T202345, start_date=20250627T202351, end_date=20250627T202352
+[2025-06-27T20:23:52.313+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-27T20:23:52.384+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1378: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2025-06-27T20:23:52.444+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-27T20:23:52.447+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
